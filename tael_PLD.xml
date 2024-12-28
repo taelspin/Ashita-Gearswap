@@ -1,0 +1,149 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>false</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="tp">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="pdt">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head augment="D15938765744130">Souv. Schaller +1</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet augment="D15938765744130">Souveran Schuhs +1</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="TP">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Aurgelmir Orb</ammo>
+			<head augment="D15938765744130">Souv. Schaller +1</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet augment="D15938765744130">Souveran Schuhs +1</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="PDT">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head augment="D15938765744130">Souv. Schaller +1</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands augment="D15938765744130">Souv. Handsch. +1</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet augment="D15938765744130">Souveran Schuhs +1</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="PDT1">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head augment="D15938765744130">Souv. Schaller +1</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands augment="D15938765744130">Souv. Handsch. +1</hands>
+			<legs augment="D15938765744130">Souv. Diechlings +1</legs>
+			<feet augment="D15938765744130">Souveran Schuhs +1</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="TP1">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands augment="D15938765744130">Souv. Handsch. +1</hands>
+			<legs augment="D15938765744130">Souv. Diechlings +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Flume Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Knightly Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="TP2">
+			<main augment="D16222338879516">Nixxer</main>
+			<sub augment="M0">Aegis</sub>
+			<ammo>Aurgelmir Orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands augment="D15938765744130">Souv. Handsch. +1</hands>
+			<legs augment="D15938765744130">Souv. Diechlings +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Flume Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Knightly Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+	</variables>
+	<inputcommands>
+	</inputcommands>
+	<idlegear>
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+	</jobability>
+	<weaponskill>
+	</weaponskill>
+</ashitacast>

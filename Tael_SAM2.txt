@@ -1,0 +1,297 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+	</settings>
+	<variables>
+		<var name="Showoff">0</var>
+        <var name="PhysicalDefense">0</var>
+        <var name="MagicDefense">0</var>
+    </variables>
+	<init>
+		<!-- This codeblock will automatically change your macro book/page according to the job and subjob list below -->
+		<!-- Change the below variable subjob abbreviations according to the subjobs you use with this profile. -->
+		<if p_subjob="WAR"><setvar name="macropage" value="1" /></if>
+		<if p_subjob="DNC"><setvar name="macropage" value="2" /></if>
+		<if p_subjob="THF"><setvar name="macropage" value="3" /></if>
+		
+		<if p_mainjob="SAM"><setvar name="macrobook" value="12" /><setvar name="lockstyleset" value="12" /></if>
+		
+		<command delay="1500">/macro book $macrobook</command>
+		<command delay="3000">/macro set $macropage</command-->
+		<command delay="4500">/echo *** Job is %p_job. Macros set to Book $macrobook, Page $macropage. ***</command>
+
+		<!-- This will change your Lockstyle set if desired -->
+		<command delay='6000'>/lockstyleset $lockstyleset</command>
+		<!-- <command delay='6000'>/gl blink</command> <!-- Only use this line if you have the plugin "Gearlock" installed -->
+	</init>
+	<sets>
+		<set name="Idle">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Lord's yukata</body>
+			<hands>Usukane Gote</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Danzo Sune-ate</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Warwolf Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="Running">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Lord's yukata</body>
+			<hands>Usukane Gote</hands>
+			<legs>Dst. Subligar +1</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Orochi Nodowa +1</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Novia Earring</ear1>
+			<ear2>Evasion Earring</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="Showoff">
+			<main>Amanomurakumo</main>
+			<sub>Pole Grip</sub>
+			<ammo>Aurgelmir orb</ammo>
+			<head>Maat's Cap</head>
+			<body>Usukane Haramaki</body>
+			<hands>Dusk Gloves +1</hands>
+			<legs>Hachiryu Haidate</legs>
+			<feet>Usukane Sune-Ate</feet>
+			<neck>Unkai Nodowa</neck>
+			<waist>Ninurta's Sash</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Bushinomimi</ear2>
+			<ring1>Mars's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="tp">
+			<main>Ichigohitofuri</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +2</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+
+		<set name="STRWS">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +2</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Ishvara Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S3738594997708818759">Smertrios's Mantle</back>
+		</set>
+		<set name="RELICWS">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +2</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Ishvara Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S3738594997708818759">Smertrios's Mantle</back>
+		</set>
+		<set name="RANA">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +2</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Ishvara Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S3738594997708818759">Smertrios's Mantle</back>
+		</set>
+		<set name="Haste">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +2</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="PhysicalDefense">
+			<ammo>Bibiki Seashell</ammo>
+			<head>Arh. Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Dst. Mittens +1</hands>
+			<legs>Dst. Subligar +1</legs>
+			<feet>Dst. Leggings +1</feet>
+			<neck>Evasion Torque</neck>
+			<waist>Flume Belt +1</waist>
+			<ear1>Novia Earring</ear1>
+			<ear2>Evasion Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="MagicDefense">
+			<ammo>Fenrir's Stone</ammo>
+			<head>Coral Visor +1</head>
+			<body>Avalon Breastplate</body>
+			<hands>Coral Fng. Gnt. +1</hands>
+			<legs>Coral Cuisses +1</legs>
+			<feet>Coral Greaves +1</feet>
+			<neck>Jeweled Collar +1</neck>
+			<waist>Flume Belt +1</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<inputcommands>
+		<cmd input="/pdt">
+			<setvar name="MagicDefense" value="0" />
+			<setvar name="Showoff" value="0" />
+            <if advanced="$PhysicalDefense=0">
+                <setvar name="PhysicalDefense" value="1" />
+                <addtochat color="100">Physical Defense Set Equipped.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/pdt off">
+            <if advanced="$PhysicalDefense=1">
+                <setvar name="PhysicalDefense" value="0" />
+                <addtochat color="200">Physical Defense Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+        <cmd input="/mdt">
+			<setvar name="PhysicalDefense" value="0" />
+			<setvar name="Showoff" value="0" />
+            <if advanced="$MagicDefense=0">
+                <setvar name="MagicDefense" value="1" />
+                <addtochat color="100">Magic Defense Set Equipped.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/mdt off">
+            <if advanced="$MagicDefense=1">
+                <setvar name="MagicDefense" value="0" />
+                <addtochat color="200">Magic Defense Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/showoff">
+			<setvar name="PhysicalDefense" value="0" />
+			<setvar name="MagicDefense" value="0" />
+            <if advanced="$Showoff=0">
+                <setvar name="Showoff" value="1" />
+                <addtochat color="100">Show Off Set Equipped.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/showon">
+            <if advanced="$Showoff=1">
+                <setvar name="Showoff" value="0" />
+                <addtochat color="200">Show Off Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+	</inputcommands>
+	<idlegear>
+		<if p_status="idle">
+            <equip set="Idle" />
+				<if p_hpp="<50">
+					<equip>
+						<ring2>Ulthalam's Ring</ring2>
+					</equip>
+				</if>
+                <elseif advanced="$MagicDefense=1">
+                    <equip set="MagicDefense" />
+                </elseif>
+                <elseif advanced="$PhysicalDefense=1">
+                    <equip set="PhysicalDefense" />
+                </elseif>
+				<elseif advanced="$Showoff=1">
+                    <equip set="Showoff" />
+                </elseif>
+				<elseif p_ismoving="true">
+					<equip set="Running" />
+				</elseif>
+        </if>
+        <if p_status="engaged">
+			<equip set="TP" />
+            <if advanced="$MagicDefense=1">
+                <equip set="MagicDefense" />
+            </if>
+            <elseif advanced="$PhysicalDefense=1">
+                <equip set="PhysicalDefense" />
+            </elseif>
+        </if> 
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+		<if ad_skill="ninjutsu">
+            <equip set="Haste" />
+        </if>
+	</premagic>
+	<midmagic>
+		<if ad_name="Monomi*">
+			<command>/cancel 71</command>
+        </if>
+	</midmagic>
+	<jobability>
+		<if ad_name="Meditate">
+            <equip><head>Myochin Kabuto</head><hands>Sao. Kote +2</hands></equip>
+		</if>
+		<if ad_name="Warding Circle">
+            <equip><head>Myochin Kabuto</head></equip>
+		</if>
+	</jobability>
+	<weaponskill>
+		<if ad_name="Tachi: Kaiten|Tachi: Fudo|Tachi: Kasha|Tachi: Enpi|Tachi: Goten">
+            <equip set="RELICWS" />
+        </if>
+		<elseif ad_name="Tachi: Rana">
+            <equip set="RANA" />
+        </elseif>
+		<else>
+			<equip set="STRWS" />
+		</else>
+	</weaponskill>
+</ashitacast>

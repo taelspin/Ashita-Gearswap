@@ -1,0 +1,48 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>false</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="tp">
+			<main>Surcouf's Jambiya</main>
+			<sub>Twilight Knife</sub>
+			<range>Eminent Gun</range>
+			<ammo>Steel Bullet</ammo>
+			<head>Zelus Tiara</head>
+			<body>Espial Gambison</body>
+			<hands>Alruna's Gloves +1</hands>
+			<legs>Mirador Trou. +1</legs>
+			<feet>Hermes' Sandals</feet>
+			<neck>Marked Gorget</neck>
+			<waist>Twilight Belt</waist>
+			<ear1>Suppanomimi</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+	</variables>
+	<inputcommands>
+	</inputcommands>
+	<idlegear>
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+	</jobability>
+	<weaponskill>
+	</weaponskill>
+</ashitacast>

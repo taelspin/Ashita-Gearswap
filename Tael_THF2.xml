@@ -1,0 +1,359 @@
+<ashitacast>
+    <settings>
+        <buffupdate>false</buffupdate>
+        <statusupdate>false</statusupdate>
+        <hpupdate>false</hpupdate>
+        <autoupdate>true</autoupdate>
+    </settings>
+    <variables>
+        <var name="Evasion">0</var>
+		<var name="MagicDefense">0</var>
+		<var name="TH">0></var>
+		<var name="Showoff">0</var>
+    </variables>
+	<init>
+		<!-- This codeblock will automatically change your macro book/page according to the job and subjob list below -->
+		<!-- Change the below variable subjob abbreviations according to the subjobs you use with this profile. -->
+		<if p_subjob="DNC"><setvar name="macropage" value="1" /></if>
+		<if p_subjob="NIN"><setvar name="macropage" value="2" /></if>
+		<if p_subjob="WAR"><setvar name="macropage" value="3" /></if>
+		<!-- You probably don't need to change these variables below, unless you want to play PUP or GEO. -->
+		<if p_mainjob="THF"><setvar name="macrobook" value="6" /><setvar name="lockstyleset" value="6" /></if>
+
+		<command delay="1500">/macro book $macrobook</command>
+		<command delay="3000">/macro set $macropage</command>
+		<command delay="4500">/echo *** Job is %p_job. Macros set to Book $macrobook, Page $macropage. ***</command>
+
+		<!-- This will change your Lockstyle set if desired -->
+		<command delay='6000'>/lockstyleset $lockstyleset</command>
+		<!-- <command delay='5000'>/gl blink</command> <!-- Only use this line if you have the plugin "Gearlock" installed -->
+	</init>
+	<sets>
+		<set name="idle">
+			<main>Tzustes Knife</main>
+			<sub>Thief's Knife</sub>
+			<range>Raider's Bmrng.</range>
+			<head>Smilodon Mask +1</head>
+			<body>Espial Gambison</body>
+			<hands>Asn. Armlets +2</hands>
+			<legs>Ocelot Trousers</legs>
+			<feet>Strider Boots</feet>
+			<neck>Asn. Gorget +1</neck>
+			<waist>Twilight Belt</waist>
+			<ear1>Suppanomimi</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epona's Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="Running">
+			<head>Optical Hat</head>
+			<body>Antares Harness</body>
+			<back>Boxer's Mantle</back>
+			<neck>Orochi Nodowa +1</neck>
+			<hands>Asn. Armlets +1</hands>
+			<waist>Scouter's Rope</waist>
+			<ear1>Novia Earring</ear1>
+			<ear2>Evasion Earring</ear2>
+			<ring1>Wivre Ring +1</ring1>
+			<ring2>Wivre Ring +1</ring2>
+			<legs>Ocelot Trousers</legs>
+			<feet>Trotter Boots</feet>
+		</set>
+		<set name="TP">
+			<main>Tzustes Knife</main>
+			<sub>Thief's Knife</sub>
+			<range>Raider's Bmrng.</range>
+			<head>Smilodon Mask +1</head>
+			<body>Espial Gambison</body>
+			<hands>Asn. Armlets +2</hands>
+			<legs>Ocelot Trousers</legs>
+			<feet augment="M0">Raid. Poulaines +2</feet>
+			<neck>Asn. Gorget +1</neck>
+			<waist>Twilight Belt</waist>
+			<ear1>Suppanomimi</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epona's Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="Showoff">
+			<head>Hecatomb Cap +1</head>
+			<body>Hct. Harness +1</body>
+			<back>Cerb. Mantle +1</back>
+			<neck>Fotia Gorget</neck>
+			<hands>Hct. Mittens +1</hands>
+			<waist>Warwolf Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Suppanomimi</ear2>
+			<ring1>Strigoi Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<legs>Hct. Subligar +1</legs>
+			<feet>Hct. Leggings +1</feet>
+		</set>
+		<set name="Haste">
+			<head>Walahra turban</head>
+			<body>Rapparee Harness</body>
+			<back>Boxer's Mantle</back>
+			<neck>Tiercel Necklace</neck>
+			<hands>Dusk Gloves +1</hands>
+			<waist>Ninurta's Sash</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Evasion Earring</ear2>
+			<ring1>Wivre Ring +1</ring1>
+			<ring2>Wivre Ring +1</ring2>
+			<legs>Ocelot Trousers</legs>
+			<feet>Homam Gambieras</feet>
+		</set>
+		<set name="TH">
+			<hands>Asn. Armlets +1</hands>
+		</set>
+		<set name="Evasion">
+			<head>Optical Hat</head>
+			<body>Antares Harness</body>
+			<back>Boxer's Mantle</back>
+			<neck>Evasion Torque</neck>
+			<hands>Patrician's Cuffs</hands>
+			<waist>Scouter's Rope</waist>
+			<ear1>Novia Earring</ear1>
+			<ear2>Evasion Earring</ear2>
+			<ring1>Wivre Ring +1</ring1>
+			<ring2>Wivre Ring +1</ring2>
+			<legs>Raven Hose</legs>
+			<feet>Emissary Boots</feet>
+		</set>
+		<set name="MagicDefense">
+			<head>Black Ribbon</head>
+			<body>Avalon Breastplate</body>
+			<back>Lamia Mantle +1</back>
+			<neck>Jeweled Collar +1</neck>
+			<hands>Patrician's Cuffs</hands>
+			<waist>Lieutenant's Sash</waist>
+			<ear1>Merman's Earring</ear1>
+			<ear2>Merman's Earring</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Shadow Ring</ring2>
+			<legs>Raven Hose</legs>
+			<feet>Emissary Boots</feet>
+		</set>
+		<set name="DEX">
+			<head>Maat's Cap</head>
+			<body>Loki's Kaftan</body>
+			<back>Cavaros Mantle</back>
+			<neck>Love Torque</neck>
+			<hands>Hct. Mittens +1</hands>
+			<waist>Warwolf Belt</waist>
+			<ear1>Jupiter's Earring</ear1>
+			<ear2>Ethereal Earring</ear2>
+			<ring1>Zilant Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<legs>Hct. Subligar +1</legs>
+			<feet>Lithe Boots</feet>
+		</set>
+		<set name="AGI">
+			<head>Maat's Cap</head>
+			<body>Loki's Kaftan</body>
+			<back>Cavaros Mantle</back>
+			<neck>Hope Torque</neck>
+			<hands>Ocelot Gloves</hands>
+			<waist>Scouter's Rope</waist>
+			<ear1>Auster's Earring</ear1>
+			<ear2>Auster's Earring</ear2>
+			<ring1>Blobnag Ring</ring1>
+			<ring2>Auster's Ring</ring2>
+			<legs>Rogue's Culottes</legs>
+			<feet>Lithe Boots</feet>
+		</set>
+		<set name="STRWS">
+			<head>Hecatomb Cap +1</head>
+			<body>Hct. Harness +1</body>
+			<back>Cerb. Mantle +1</back>
+			<neck>Fotia Gorget</neck>
+			<hands>Hct. Mittens +1</hands>
+			<waist>Warwolf Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Vulcan's Earring</ear2>
+			<ring1>Strigoi Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<legs>Enkidu's Subligar</legs>
+			<feet>Hct. Leggings +1</feet>
+		</set>
+		<set name="DEXWS">
+			<head>Maat's Cap</head>
+			<body>Loki's Kaftan</body>
+			<back>Cuchulain's Mantle</back>
+			<neck>Fotia Gorget</neck>
+			<hands>Ocelot Gloves</hands>
+			<waist>Cuchulain's Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Jupiter's Earring</ear2>
+			<ring1>Zilant Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<legs>Hct. Subligar +1</legs>
+			<feet>Lithe Boots</feet>
+		</set>
+	</sets>
+	<inputcommands>
+	    <cmd input="/eva">
+			<setvar name="MagicDefense" value="0" />
+			<setvar name="TH" value="0" />
+			<setvar name="Showoff" value="0" />
+            <if advanced="$Evasion=0">
+                <setvar name="Evasion" value="1" />
+                <addtochat color="100">Evasion Set Equipped.</addtochat>
+            </if>
+        </cmd>
+        <cmd input="/eva off">
+            <if advanced="$Evasion=1">
+                <setvar name="Evasion" value="0" />
+                <addtochat color="200">Evasion Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/mdt">
+			<setvar name="Evasion" value="0" />
+			<setvar name="TH" value="0" />
+			<setvar name="Showoff" value="0" />
+            <if advanced="$MagicDefense=0">
+                <setvar name="MagicDefense" value="1" />
+                <addtochat color="100">Magic Defense Set Equipped.</addtochat>
+            </if>
+        </cmd>
+        <cmd input="/mdt off">
+            <if advanced="$MagicDefense=1">
+                <setvar name="MagicDefense" value="0" />
+                <addtochat color="200">Magic Defense Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/th">
+			<setvar name="Evasion" value="0" />
+			<setvar name="MagicDefense" value="0" />
+			<setvar name="Showoff" value="0" />
+            <if advanced="$TH=0">
+                <setvar name="TH" value="1" />
+                <addtochat color="100">TH Set Set Equipped.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/th off">
+            <if advanced="$TH=1">
+                <setvar name="TH" value="0" />
+                <addtochat color="200">TH Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/showoff">
+			<setvar name="Evasion" value="0" />
+			<setvar name="MagicDefense" value="0" />
+			<setvar name="TH" value="0" />
+            <if advanced="$Showoff=0">
+                <setvar name="Showoff" value="1" />
+                <addtochat color="100">Show Off Set Equipped.</addtochat>
+            </if>
+        </cmd>
+		<cmd input="/showoff off">
+            <if advanced="$Showoff=1">
+                <setvar name="Showoff" value="0" />
+                <addtochat color="200">Show Off Set Canceled. Returning to Normal set.</addtochat>
+            </if>
+        </cmd>
+	</inputcommands>
+	<idlegear>
+	    <if p_status="idle">
+            <equip set="Idle" />
+				<if p_hpp="<50">
+					<equip>
+						<ring2>Ulthalam's Ring</ring2>
+					</equip>
+				</if>
+                <elseif advanced="$Evasion=1">
+                    <equip set="Evasion" />
+                </elseif>
+				<elseif advanced="$MagicDefense=1">
+                    <equip set="MagicDefense" />
+                </elseif>
+				<elseif advanced="$Showoff=1">
+                    <equip set="Showoff" />
+                </elseif>
+				<elseif p_ismoving="true">
+					<equip set="Running" />
+				</elseif>
+		</if>
+        <if p_status="engaged">
+            <equip set="TP" />
+				<if buffactive="65">
+					<equip set="DEX" />
+				</if>
+				<elseif buffactive="87">
+					<equip set="AGI" />
+				</elseif>
+				<elseif advanced="$Evasion=1">
+                    <equip set="Evasion" />
+						<if buffactive="65">
+							<equip set="DEX" />
+						</if>
+						<elseif buffactive="87">
+							<equip set="AGI" />
+						</elseif>
+				</elseif>
+				<elseif advanced="$MagicDefense=1">
+					<equip set="MagicDefense" />
+						<if buffactive="65">
+							<equip set="DEX" />
+						</if>
+						<elseif buffactive="87">
+							<equip set="AGI" />
+						</elseif>
+				</elseif>
+				<elseif advanced="$TH=1">
+					<equip set="TH" />
+						<if buffactive="65">
+							<equip set="DEX" />
+						</if>
+						<elseif buffactive="87">
+							<equip set="AGI" />
+						</elseif>
+				</elseif>
+				
+        </if>
+	</idlegear>
+	<prerenged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+        <equip set="Haste" />
+	</premagic>
+	<midmagic>
+	    <if ad_name="Monomi*">
+            <command>/cancel 71</command>
+        </if>
+	</midmagic>
+	<jobability>
+		<if ad_name="Flee">
+			<equip when="precast">
+				<feet>Rogue's Poulaines</feet>
+			</equip>
+		</if>
+		<if ad_name="Steal">
+			<equip when="precast">
+				<head>Rogue's Bonnet</head>
+				<neck>Rabbit Charm</neck>
+				<hands>Thief's Kote</hands>
+				<waist>Key Ring Belt</waist>
+				<legs>Assassin's Culottes</legs>
+				<feet>Rogue's Poulaines</feet>
+			</equip>
+		</if>
+		<if ad_name="Mug">
+			<equip when="precast">
+				<head>Assassin's Bonnet</head>
+			</equip>
+		</if>
+	</jobability>	
+	<weaponskill>
+		<if ad_name="Mercy Stroke">
+            <equip set="StrWS" />
+        </if>
+		<else>
+			<equip set="DEXWS" />
+		</else>
+    </weaponskill>
+</ashitacast>

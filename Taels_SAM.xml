@@ -1,0 +1,268 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>false</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="tp">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Naga Somen</head>
+			<body>Naga Samue</body>
+			<hands>Naga Tekko</hands>
+			<legs>Naga Hakama</legs>
+			<feet>Naga Kyahan</feet>
+			<neck>Marked Gorget</neck>
+			<waist>Anguinus Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="Idle">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Naga Somen</head>
+			<body>Naga Samue</body>
+			<hands>Naga Tekko</hands>
+			<legs>Naga Hakama</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Marked Gorget</neck>
+			<waist>Anguinus Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="tp">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Naga Somen</head>
+			<body>Naga Samue</body>
+			<hands>Naga Tekko</hands>
+			<legs>Naga Hakama</legs>
+			<feet>Naga Kyahan</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Warp Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Nexus Cape</back>
+		</set>
+		<set name="tp">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Naga Somen</head>
+			<body>Naga Samue</body>
+			<hands>Naga Tekko</hands>
+			<legs>Naga Hakama</legs>
+			<feet>Naga Kyahan</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Warp Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Nexus Cape</back>
+		</set>
+		<set name="tp">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Naga Somen</head>
+			<body>Naga Samue</body>
+			<hands>Naga Tekko</hands>
+			<legs>Naga Hakama</legs>
+			<feet>Naga Kyahan</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="tp">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Flamma Zucchetto</head>
+			<body>Flamma Korazin</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs</legs>
+			<feet>Flam. Gambieras +1</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="tp">
+			<main augment="M0">Shirodachi</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Flamma Zucchetto</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Warp Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="TP">
+			<main augment="M0">Shirodachi</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Flamma Zucchetto</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Warp Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="TP">
+			<main augment="M0">Shirodachi</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Flam. Zucchetto +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Warp Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="TP">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Flam. Gambieras +1</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="tp1">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Arh. Jinpachi +1</head>
+			<body>Flamma Korazin +1</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="tp2">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Arh. Jinpachi +1</head>
+			<body>Flamma Korazin +1</body>
+			<hands>Sao. Kote +2</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+		<set name="WS">
+			<main>Senkuto</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Hagneia Stone</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Lord's Yukata</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Flamma Dirs +1</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Steelflash Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S3738594997708818759">Smertrios's Mantle</back>
+		</set>
+		<set name="WS">
+			<main augment="D15445033688348">Ichigohitofuri</main>
+			<sub>Duplus Grip</sub>
+			<ammo>Aurgelmir Orb</ammo>
+			<head>Flam. Zucchetto +2</head>
+			<body>Flamma Korazin +2</body>
+			<hands>Flam. Manopolas +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Flam. Gambieras +2</feet>
+			<neck>Moonbeam Nodowa</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Ishvara Earring</ear2>
+			<ring1>Flamma Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S3738594997708818759">Smertrios's Mantle</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+	</variables>
+	<inputcommands>
+	</inputcommands>
+	<idlegear>
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+	</jobability>
+	<weaponskill>
+	</weaponskill>
+</ashitacast>

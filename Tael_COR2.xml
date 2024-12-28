@@ -1,0 +1,347 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statuspdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: FALSE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: FALSE -->
+	</settings>
+	<sets>
+		<set name="Stand">
+			<ammo>Adlivun Bullet</ammo>
+			<head>Herculean Helm</head>
+			<neck>Iqabi necklace</neck>
+			<lear>Volley Earring</lear>
+			<rear>Enervating Earring</rear>
+			<body>Pursuer's Doublet</body>
+			<hands>Chasseur's Gants +1</hands>
+			<lring>Defending Ring</lring>
+			<rring>Cacoethic Ring +1</rring>
+			<back>Gunslinger's cape</back>
+			<waist>Ponente sash</waist>
+			<legs>Samnuha Tights</legs>
+			<feet>Lak. Bottes +1</feet>
+		</set>
+		<set name="TP-Accuracy">
+			<ammo>Adlivun Bullet</ammo>
+			<head augment="S1404598001687">Taeon Chapeau</head>
+			<body>Rawhide Vest</body>
+			<hands>Leyline Gloves</hands>
+			<legs>Samnuha Tights</legs>
+			<feet>Herculean boots</feet>
+			<neck>Subtlety Spec.</neck>
+			<waist>Olseni Belt</waist>
+			<lear>Steelflash Earring</lear>
+			<rear>Heartseeker Earring</rear>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Oneiros Ring</ring2>
+			<back>Ground. Mantle +1</back>
+		</set>
+		<set name="TP">
+			<ammo>Adlivun Bullet</ammo>
+			<head>Herculean Helm</head>
+			<neck>Subtlety Spec.</neck>
+			<lear>Steelflash Earring</lear>
+			<rear>Bladeborn Earring</rear>
+			<body>Rawhide Vest</body>
+			<hands>Umuthi Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Epona's Ring</rring>
+			<back>Ground. Mantle +1</back>
+			<waist>Olseni belt</waist>
+			<legs>Samnuha Tights</legs>
+			<feet>Herculean boots</feet>
+		</set>
+		<set name="Racc">
+			<ammo>Adlivun Bullet</ammo>
+			<head>Chass. Tricorne +1</head>
+			<neck>Iqabi Necklace</neck>
+			<lear>Volley Earring</lear>
+			<rear>Enervating Earring</rear>
+			<body>Pursuer's Doublet</body>
+			<hands>Alruna's gloves +1</hands>
+			<lring>Haverton Ring</lring>
+			<rring>Cacoethic Ring +1</rring>
+			<back>Gunslinger's cape</back>
+			<waist>Ponente sash</waist>
+			<legs>Feast Hose</legs>
+			<feet>Lak. Bottes +1</feet>
+		</set>	
+		<set name="QD">
+			<ammo>Animikii Bullet</ammo>
+			<head>Herculean Helm</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Novio Earring</lear>
+			<rear>Hecate's Earring</rear>
+			<body>Samnuha Coat</body>
+			<hands>Leyline Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Fenrir Ring +1</rring>
+			<back>Gunslinger's Cape</back>
+			<waist>Aquiline Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Herculean Boots</feet>
+		</set>
+		<set name="QD-LD" BaseSet="QD">		
+			<lear>Lifestorm Earring</lear>
+			<rear>Psystorm Earring</rear>
+		</set>
+		<set name="Steps">
+			<head>Herculean Helm</head>
+			<neck>Subtlety Spec.</neck>
+			<lear>Steelflash Earring</lear>
+			<rear>Heartseeker Earring</rear>
+			<body>Mekosu. Harness</body>
+			<hands>Umuthi Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Epona's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Olseni belt</waist>
+			<legs>Samnuha Tights</legs>
+			<feet>Herculean boots</feet>				
+		</set>
+		<set name="Savage">
+			<ammo>Adlivun Bullet</ammo>
+			<head augment="S1404598001687">Taeon Chapeau</head>
+			<body>Rawhide Vest</body>
+			<hands>Leyline Gloves</hands>
+			<legs>Samnuha Tights</legs>
+			<feet>Herculean boots</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<lear>Vulcan's Pearl</lear>
+			<rear>Moonshade Earring</rear>
+			<lring>ifrit Ring +1</lring>
+			<rring>Rufescent Ring</rring>
+			<back>Camulus's Mantle</back>
+		</set>
+		<set name="Exenterator">
+			<head>Herculean Helm</head>
+			<neck>Fotia Gorget</neck>
+			<lear>Steelflash Earring</lear>
+			<rear>Bladeborn Earring</rear>
+			<body>Mekosu. Harness</body>
+			<hands>Lanun gants +1</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ifrit Ring +1</rring>
+			<back>Atheling Mantle</back>
+			<waist>Fotia Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Herculean boots</feet>
+		</set>
+		<set name="LastStand">
+			<ammo>Adlivun Bullet</ammo>
+			<head>Umbani cap</head>
+			<neck>Ocachi gorget</neck>
+			<lear>Auster's Pearl</lear>
+			<rear>Vulcan's Pearl</rear>
+			<body>Chasseur's Frac +1</body>
+			<hands>Pursuer's Cuffs</hands>
+			<lring>Ifrit Ring +1</lring>
+			<rring>Apate Ring</rring>
+			<back>Camulus's Mantle</back>
+			<waist>Fotia Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Lak. Bottes +1</feet>
+		</set>
+		<set name="Requiescat">
+			<head>Herculean Helm</head>
+			<neck>Fotia Gorget</neck>
+			<lear>Steelflash Earring</lear>
+			<rear>Bladeborn Earring</rear>
+			<body>Mekosu. Harness</body>
+			<hands>Pursuer's Cuffs</hands>
+			<lring>Apate Ring</lring>
+			<rring>Epona's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Fotia Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Lanun Bottes +1</feet>
+		</set>
+		<set name="Wildfire">
+			<ammo>Orichalc. Bullet</ammo>
+			<head>Herculean Helm</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Friomisi Earring</lear>
+			<rear>Hecate's Earring</rear>
+			<body>Samnuha coat</body>
+			<hands>Leyline Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Fenrir ring +1</rring>
+			<back>Gunslinger's Cape</back>
+			<waist>Aquiline Belt</waist>
+			<legs>Lak. trews +1</legs>
+			<feet>Lanun Bottes +1</feet>
+		</set>
+		<set name="Salute">
+			<ammo>Orichalc. Bullet</ammo>
+			<head>Herculean Helm</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Friomisi Earring</lear>
+			<rear>Hecate's Earring</rear>
+			<body>Samnuha coat</body>
+			<hands>Leyline Gloves</hands>
+			<lring>Archon Ring</lring>
+			<rring>Fenrir ring +1</rring>
+			<back>Gunslinger's Cape</back>
+			<waist>Aquiline Belt</waist>
+			<legs>Lak. trews +1</legs>
+			<feet>Lanun Bottes +1</feet>
+		</set>
+		<set name="Magey">
+			<head>Lilitu Headpiece</head>
+			<neck>Sanctity Necklace</neck>
+			<lear>Loquac. Earring</lear>
+			<rear>Etiolation Earring</rear>
+			<body>Pursuer's Doublet</body>
+			<hands>Leyline Gloves</hands>
+			<lring>Metamorph Ring</lring>
+			<rring>Metamor. Ring +1</rring>
+			<back>Gunslinger's cape</back>
+			<waist>Ninurta's Sash</waist>
+			<legs>Feast Hose</legs>
+			<feet augment="S11162763706391" >Taeon Boots</feet> <!--triple attack item-->
+		</set>
+		<set name="Precast">
+			<head>Herculean Helm</head>
+			<neck>Voltsurge Torque</neck>
+			<lear>Loquac. Earring</lear>
+			<rear>Etiolation Earring</rear>
+			<body>Samnuha coat</body>
+			<hands>Leyline Gloves</hands>
+			<lring>Prolix Ring</lring>
+			<rring>Veneficium ring</rring>
+			<back>Gunslinger's Cape</back>
+			<waist>Ninurta's sash</waist>
+			<legs>Precast legs</legs>
+			<feet>Lanun Bottes +1</feet>
+		</set>
+		<set name="PDT">
+			<neck>Twilight Torque</neck>
+			<lring>Dark Ring</lring>
+			<back>Mollusca Mantle</back>
+			<waist>Flume Belt</waist>
+		</set>
+		<set name="MDT"><!--needs 23-->
+			<neck>Twilight Torque</neck>
+			<lring>Dark Ring</lring>
+			<rring>Shadow Ring</rring>
+			<back>Mollusca Mantle</back>
+		</set>
+		<include>
+			<item>Vanir Gun</item>
+			<item>Compensator</item>
+			<item quantity="All">Trump Card Case</item>
+			<item quantity="all">Trump Card</item>
+			<item quantity="all">Adlivun Bullet</item>
+			<item quantity="All">Squid Sushi +1</item>
+		</include>
+	</sets>
+
+	<inputcommands>
+		<cmd input="/trigger2">
+			<gearlock delay="5" />
+			<equip set="PDT" />
+		</cmd>
+		<cmd input="/trigger3">
+			<gearlock delay="5" />
+			<equip set="MDT" />
+		</cmd>
+	</inputcommands>
+
+	<idlegear>
+		<if p_status="engaged">
+			<equip set="TP-Accuracy" />
+		</if>
+		<else>
+			<equip set="Stand" />
+			<if p_subjob="whm|blm|rdm">
+				<equip set="Magey"></equip>
+			</if>
+		</else>
+		<else>
+			<if p_subjob="rng">
+				<equip set="racc"></equip>
+			</if>
+		</else>	
+		<else>
+			<if p_subjob="dnc">
+				<equip set="TP-Accuracy"></equip>
+			</if>
+		</else>
+		<if eq_back="Mecisto. Mantle">
+            <equip lock="true">
+                <back>Mecisto. Mantle</back>                
+            </equip>
+		</if>
+		<if buffactive="579">
+			<equip>
+			<back>Mecisto. Mantle</back>
+			</equip>
+		</if>	
+		<if eq_rring="Warp Ring">
+			<equip lock="true">
+				<rring>Warp Ring</rring>				
+			</equip>
+		</if>
+		<elseif eq_lring="Warp Ring">
+			<equip lock="true">
+				<lring>Warp Ring</lring>				
+			</equip>
+		</elseif>
+		<if eq_rring="Trizek Ring">
+            <equip lock="true">
+                <rring>Trizek Ring</rring>                
+            </equip>
+		</if>
+		<if eq_rring="Capacity Ring">
+            <equip lock="true">
+                <rring>Capacity Ring</rring>                
+            </equip>
+		</if>
+		<if eq_rring="Vocation Ring">
+            <equip lock="true">
+                <rring>Vocation Ring</rring>                
+            </equip>
+		</if>
+		<if eq_rring="Facility Ring">
+            <equip lock="true">
+                <rring>Facility Ring</rring>                
+            </equip>
+		</if>
+	</idlegear>
+	
+	<preranged>
+		<equip set="Racc" />
+		<gearlock delay="4" />
+	</preranged>
+	
+	<premagic>
+		<equip set="Precast" />
+		<gearlock delay="2" />
+	</premagic>
+	<jobability>
+		<if ad_name="*Roll|Double-Up">
+			<equip>
+				<head>Lanun tricorne</head>
+				<hands>Chasseur's Gants +1</hands>
+				<rring>Luzaf's Ring</rring>
+				<lring>Barataria ring</lring>
+			</equip>
+			<if ad_name="Tactician's Roll"><equip><body>Chasseur's Frac +1</body></equip></if>
+		</if>
+		<if ad_name="Random Deal"><equip><body>Lanun Frac +1</body></equip></if>
+		<if ad_name="Wild Card"><equip><feet>Lanun bottes +1</feet></equip></if>
+		<if ad_name="Fold"><equip><hands>Lanun Gants +1</hands></equip></if>
+		<if ad_name="Light Shot|Dark Shot"><equip set="QD-LD" /></if>
+		<elseif ad_name="* Shot"><equip set="QD" /></elseif>
+	</jobability>
+
+	<weaponskill>
+		<if ad_name="Last Stand"><equip set="LastStand" /></if>
+		<elseif ad_name="Wildfire"><equip set="Wildfire" /></elseif>
+		<elseif ad_name="Exenterator"><equip set="Exenterator" /></elseif>
+		<elseif ad_name="Requiescat"><equip set="Requiescat" /></elseif>
+		<elseif ad_name="Leaden Salute"><equip set="Salute" /></elseif>
+		<elseif ad_name="Savage Blade"><equip set="Savage" /></elseif>
+	</weaponskill>
+</ashitacast>

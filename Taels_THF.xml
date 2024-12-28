@@ -1,0 +1,64 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>false</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="idle">
+			<main>Tzustes Knife</main>
+			<sub>Thief's Knife</sub>
+			<range>Raider's Bmrng.</range>
+			<head>Smilodon Mask +1</head>
+			<body>Espial Gambison</body>
+			<hands>Asn. Armlets +2</hands>
+			<legs>Ocelot Trousers</legs>
+			<feet>Strider Boots</feet>
+			<neck>Asn. Gorget +1</neck>
+			<waist>Twilight Belt</waist>
+			<ear1>Suppanomimi</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epona's Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="tp">
+			<main>Tzustes Knife</main>
+			<sub>Thief's Knife</sub>
+			<range>Raider's Bmrng.</range>
+			<head>Smilodon Mask +1</head>
+			<body>Espial Gambison</body>
+			<hands>Asn. Armlets +2</hands>
+			<legs>Ocelot Trousers</legs>
+			<feet augment="M0">Raid. Poulaines +2</feet>
+			<neck>Asn. Gorget +1</neck>
+			<waist>Twilight Belt</waist>
+			<ear1>Suppanomimi</ear1>
+			<ear2>Brutal Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epona's Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+	</variables>
+	<inputcommands>
+	</inputcommands>
+	<idlegear>
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+	</jobability>
+	<weaponskill>
+	</weaponskill>
+</ashitacast>
