@@ -25,7 +25,7 @@
 			<hands>Sasuke Tekko +1</hands>
 			<legs>Hiza. Hizayoroi +2</legs>
 			<feet>Iga Kyahan +2</feet>
-			<neck>Iga erimaki</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Flume Belt</waist>
 			<ear1>Suppanomimi</ear1>
 			<ear2>Brutal Earring +1</ear2>
@@ -33,6 +33,23 @@
 			<ring2>Rajas Ring</ring2>
 			<back>Moonbeam Cape</back>
 		</set>
+
+		<set name="Running">
+			<ammo>Aurgelmir orb</ammo>
+			<head>Arhat's jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Usukane Gote</hands>
+			<legs>Dst. Subligar +1</legs>
+			<feet>Danzo Sune-Ate</feet>
+			<neck>Twilight Torque</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Novia Earring</ear1>
+			<ear2>Evasion Earring</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back augment="S81370710055425541542543">Smertrios's Mantle</back>
+		</set>
+
 
 		<!-- You can turn on your evasion set to be 'default TP set' by typing /eva -->
 		<set name="Evasion">
@@ -43,17 +60,17 @@
 		<!-- However mine is not included, as I don't have inventory room at the moment -->
 		<set name="MDT" baseset="Evasion">
 			<ammo>Staunch Tathlum</ammo>
-			<head>Mummu Bonnet +1</head>
-			<body>Hiza. Haramaki +1</body>
-			<hands augment="S123244364451865">Herculean Gloves</hands>
-			<legs augment="S46184061265945">Herculean Trousers</legs>
-			<feet augment="S54988744212505">Herculean Boots</feet>
+			<head>Arhat's Jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Sasuke Tekko +1</hands>
+			<legs>Hizamaru hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
 			<neck>Loricate Torque +1</neck>
-			<waist>Resolute Belt</waist>
-			<ear1>Odnowa Earring</ear1>
+			<waist>Audumbla Sash</waist>
+			<ear1>Genmei Earring</ear1>
 			<ear2>Odnowa Earring +1</ear2>
 			<ring1>Defending Ring</ring1>
-			<ring2>Purity Ring</ring2>
+			<ring2 augment="S4150">Dark Ring</ring2>
 			<back>Moonbeam Cape</back>
 		</set>
 
@@ -62,17 +79,17 @@
 
 		<set name="PDT"  baseset="Evasion">
 			<ammo>Staunch Tathlum</ammo>
-			<head>Mummu Bonnet +1</head>
-			<body>Emet Harness +1</body>
-			<hands>Hizamaru Kote +1</hands>
-			<legs augment="S46184061265945">Herculean Trousers</legs>
-			<feet augment="S54988744212505">Herculean Boots</feet>
+			<head>Arhat's jinpachi +1</head>
+			<body>Arhat's Gi +1</body>
+			<hands>Sasuke Tekko +1</hands>
+			<legs>Hizamaru hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
 			<neck>Loricate Torque +1</neck>
-			<waist>Flume Belt</waist>
-			<ear1>Odnowa Earring</ear1>
+			<waist>Audumbla Sash</waist>
+			<ear1>Genmei Earring</ear1>
 			<ear2>Odnowa Earring +1</ear2>
 			<ring1>Defending Ring</ring1>
-			<ring2>Patricius Ring</ring2>
+			<ring2 augment="S4150">Dark Ring</ring2>
 			<back>Moonbeam Cape</back>
 		</set>
 
@@ -89,7 +106,7 @@
 			<hands>Sasuke Tekko +1</hands>
 			<legs>Hiza. Hizayoroi +2</legs>
 			<feet>Scopuli Nails +1</feet>
-			<neck>Moonbeam Nodowa</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Twilight Belt</waist>
 			<ear1>Suppanomimi</ear1>
 			<ear2>Brutal Earring</ear2>
@@ -107,7 +124,7 @@
 			<hands>Sasuke Tekko +1</hands>
 			<legs>Hiza. Hizayoroi +2</legs>
 			<feet>Scopuli Nails +1</feet>
-			<neck>Moonbeam Nodowa</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Twilight Belt</waist>
 			<ear1>Suppanomimi</ear1>
 			<ear2>Brutal Earring</ear2>
@@ -124,7 +141,7 @@
 			<hands>Sasuke Tekko +1</hands>
 			<legs>Hiza. Hizayoroi +2</legs>
 			<feet>Scopuli Nails +1</feet>
-			<neck>Moonbeam Nodowa</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Twilight Belt</waist>
 			<ear1>Suppanomimi</ear1>
 			<ear2>Brutal Earring</ear2>
@@ -136,31 +153,31 @@
      	<!-- This will make sure you use all your haste gear on Ichi: Ni and others -->
 		<set name="FastCast">
 			<ammo>Impatiens</ammo>
-			<head>Mummu Bonnet +1</head>
-			<body>Emet Harness +1</body>
-			<hands augment="S1237182801080552188">Leyline Gloves</hands>
-			<legs>Hiza. Hizayoroi +1</legs>
-			<feet augment="S54988744212505">Herculean Boots</feet>
-			<neck augment="S11021322619020">Jeweled Collar</neck>
-			<waist>Resolute Belt</waist>
+			<head>Umbani Cap</head>
+			<body>Mummu jacket</body>
+			<hands>Sasuke Tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Moonbeam necklace</neck>
+			<waist>Ninurta's Sash</waist>
 			<ear1>Loquac. Earring</ear1>
-			<ear2>Odnowa Earring +1</ear2>
+			<ear2>Etiolation Earring</ear2>
 			<ring1>Prolix Ring</ring1>
 			<ring2>Kishar Ring</ring2>
 			<back>Moonbeam Cape</back>
 		</set>
 		
 		<set name="Haste">
-			<ammo>Staunch Tathlum</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body>Emet Harness +1</body>
+			<ammo>Aurgelmir Orb</ammo>
+			<head>Umbani Cap</head>
+			<body>Mummu Jacket</body>
 			<hands>Sasuke Tekko +1</hands>
-			<legs>Hiza. Hizayoroi +1</legs>
-			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Moonbeam Nodowa</neck>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Twilight Belt</waist>
 			<ear1>Suppanomi</ear1>
-			<ear2>Brutal Earring +1</ear2>
+			<ear2>Brutal Earring</ear2>
 			<ring1>Epona's Ring</ring1>
 			<ring2>Rajas Ring</ring2>
 			<back>Atheling Mantle</back>
@@ -172,18 +189,13 @@
 		</set>
 
 		<set name="Nuke-DMG">
-			<ammo>Pemphredo Tathlum</ammo>
-			<head>Mummu Bonnet +1</head>
-			<body augment="D768861412098">Rawhide Vest</body>
-			<hands augment="S1237182801080552188">Leyline Gloves</hands>
-			<legs augment="S46184061265945">Herculean Trousers</legs>
-			<feet augment="S54988744212505">Herculean Boots</feet>
+			<ammo>Dosis Tathlum</ammo>
 			<neck>Sanctity Necklace</neck>
 			<waist>Eschan Stone</waist>
 			<ear1>Sortiarius Earring</ear1>
 			<ear2>Friomisi Earring</ear2>
 			<ring1>Shiva Ring</ring1>
-			<ring2>Shiva Ring</ring2>
+			<ring2>Shiva Ring +1</ring2>
 			<back>Izdubar Mantle</back>
 		</set>
 		<set name="Nuke-MB" baseset="Nuke-DMG">
@@ -197,16 +209,12 @@
 		<set name="Macc-Hi">
 			<ammo>Yamarang</ammo>
 			<head>Mummu Bonnet +1</head>
-			<body>Mekosu. Harness</body>
-			<hands augment="S1237182801080552188">Leyline Gloves</hands>
-			<legs augment="D1">Rawhide Trousers</legs>
-			<feet augment="S54988744212505">Herculean Boots</feet>
 			<neck>Sanctity Necklace</neck>
 			<waist>Eschan Stone</waist>
 			<ear1>Digni. Earring</ear1>
 			<ear2>Hermetic Earring</ear2>
 			<ring1>Kishar Ring</ring1>
-			<ring2>Etana Ring</ring2>
+			<ring2>Shiva ring +1</ring2>
 			<back>Yokaze Mantle</back>
 		</set>			
 
@@ -227,18 +235,18 @@
 
 		<set name="BladeHi-Old">
 			<ammo>Qirmiz Tathlum</ammo>
-			<head augment="S1100815695260118455">Herculean Helm</head>
-			<body>Abnoba Kaftan</body>
-			<hands augment="D15444866107840">Adhemar Wristbands</hands>
-			<legs>Hiza. Hizayoroi +1</legs>
-			<feet augment="S54988744212505">Herculean Boots</feet>
-			<neck>Fotia Gorget</neck>
+			<head>Umbani Cap</head>
+			<body>UAC Jerkin</body>
+			<hands>Sasuke Tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Windbuffet Belt +1</waist>
 			<ear1>Brutal Earring</ear1>
 			<ear2>Ishvara Earring</ear2>
-			<ring1>Begrudging Ring</ring1>
-			<ring2>Regal Ring</ring2>
-			<back>Yokaze Mantle</back>
+			<ring1>Epaminondas's Ring</ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
 		</set>
 		
 		<set name="BladeHi-Hybrid" baseset="BladeHi-Acc">
@@ -246,89 +254,90 @@
 		
 		<set name="BladeHi-Acc" baseset="BladeHi-Old">
 			<ammo>Qirmiz Tathlum</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body>Hiza. Haramaki +1</body>
-			<hands augment="D15444866107840">Adhemar Wristbands</hands>
-			<legs>Hiza. Hizayoroi +1</legs>
-			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Fotia Gorget</neck>
+			<head>Umbani Cap</head>
+			<body>UAC Jerkin</body>
+			<hands>Sasuke tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Fotia Belt</waist>
 			<ear1>Brutal Earring</ear1>
 			<ear2>Ishvara Earring</ear2>
-			<ring1>Begrudging Ring</ring1>
-			<ring2>Regal Ring</ring2>
-			<back>Yokaze Mantle</back>
+			<ring1>Epaminondas's Ring  <ring1>
+			<ring2>Rajas Ring</ring2>
+			<back>Atheling Mantle</back>
 		</set>		
 		
 		<set name="BladeShun-Old">
 			<ammo>Jukukik Feather</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body augment="D15444866107840">Adhemar Jacket</body>
-			<hands augment="S123244364451865">Herculean Gloves</hands>
-			<legs>Jokushu Haidate</legs>
+			<head>Umbani cap</head>
+			<body>Mummu Jacket</body>
+			<hands>Sasuke tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
 			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Fotia Gorget</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Fotia Belt</waist>
-			<ear1>Brutal Earring</ear1>
-			<ear2>Lugra Earring +1</ear2>
-			<ring1>Ramuh Ring</ring1>
-			<ring2>Regal Ring</ring2>
-			<back>Kayapa Cape</back>
+			<ear1>Ishvara Earring</ear1>
+			<ear2>Balder Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epaminondas's Ring</ring2>
+			<back>Atheling Mantle</back>
 		</set>
 		
 		<set name="BladeShun-Hybrid" baseset="BladeShun-Acc">
 		</set>	
 		
 		<set name="BladeShun-Acc" baseset="BladeShun-Old">
-			<ammo>Yamarang</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body augment="D15444866107840">Adhemar Jacket</body>
-			<hands>Hizamaru Kote +1</hands>
-			<legs>Hiza. Hizayoroi +1</legs>
-			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Fotia Gorget</neck>
+			<ammo>Aurgelmir Orb</ammo>
+			<head>Umbani Cap</head>
+			<body>Uac Jerkin</body>
+			<hands>Sasuke tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Fotia Belt</waist>
-			<ear1>Brutal Earring</ear1>
-			<ear2>Lugra Earring +1</ear2>
-			<ring1>Ramuh Ring</ring1>
-			<ring2>Regal Ring</ring2>
-			<back>Yokaze Mantle</back>
+			<ear1>Ishvara Earring</ear1>
+			<ear2>Balder Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epaminondas's Ring</ring2>
+			<back>Atheling Mantle</back>
 		</set>
 		
 
 		<set name="BladeMetsu-Old">
-			<ammo>Jukukik Feather</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body augment="D15444866107840">Adhemar Jacket</body>
-			<hands augment="S123244364451865">Herculean Gloves</hands>
-			<legs>Jokushu Haidate</legs>
-			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Fotia Gorget</neck>
+			<ammo>Aurgelmir Orb</ammo>
+			<head>Umbani Cap</head>
+			<body>Mummu Jacket</body>
+			<hands>Sasuke Tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Sanctity Necklace</neck>
 			<waist>Fotia Belt</waist>
-			<ear1>Brutal Earring</ear1>
-			<ear2>Lugra Earring +1</ear2>
-			<ring1>Ramuh Ring</ring1>
-			<ring2>Regal Ring</ring2>
-			<back>Kayapa Cape</back>
+			<ear1>Ishvara Earring</ear1>
+			<ear2>Balder Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epaminondas's Ring</ring2>
+			<back>Atheling Mantle</back>
 		</set>
 		
 		<set name="BladeMetsu-Hybrid" baseset="BladeMetsu-Acc">
 		</set>	
 		
 		<set name="BladeMetsu-Acc" baseset="BladeMetsu-Old">
-			<ammo>Yamarang</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body augment="D15444866107840">Adhemar Jacket</body>
-			<hands>Hizamaru Kote +1</hands>
-			<legs>Hiza. Hizayoroi +1</legs>
-			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Fotia Gorget</neck>
+			<ammo>Aurgelmir Orb</ammo>
+			<head>Umbani Cap</head>
+			<body>Mummu Jacket</body>
+			<hands>Sasuke Tekko +1</hands>
+			<legs>Hiza. Hizayoroi +2</legs>
+			<feet>Scopuli Nails +1</feet>
+			<neck>Sanctity Necklace</neck>
 			<waist>Fotia Belt</waist>
-			<ear1>Brutal Earring</ear1>
-			<ear2>Lugra Earring +1</ear2>
-			<ring1>Ramuh Ring</ring1>
-			<ring2>Regal Ring</ring2>
-			<back>Yokaze Mantle</back>
+			<ear1>Ishvara Earring</ear1>
+			<ear2>Balder Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Epaminondas's Ring</ring2>
+			<back>Atheling Mantle</back>
+
 		</set>
 		
 
@@ -340,7 +349,7 @@
 			<hands>Hizamaru Kote +1</hands>
 			<legs>Hiza. Hizayoroi +1</legs>
 			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Sanctity Necklace</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Grunfeld Rope</waist>
 			<ear1>Lugra Earring +1</ear1>
 			<ear2 augment="S560011289">Moonshade Earring</ear2>
@@ -368,7 +377,7 @@
 			<hands>Hizamaru Kote +1</hands>
 			<legs>Hiza. Hizayoroi +1</legs>
 			<feet>Hiza. Sune-Ate +1</feet>
-			<neck>Fotia Gorget</neck>
+			<neck>Ninja nodowa +2</neck>
 			<waist>Fotia Belt</waist>
 			<ear1>Brutal Earring</ear1>
 			<ear2 augment="S560011289">Moonshade Earring</ear2>
@@ -388,11 +397,11 @@
 
 		<set name="ENMITY">
 			<ammo>Sapience Orb</ammo>
-			<head>Hizamaru Somen +1</head>
-			<body>Emet Harness +1</body>
-			<hands>Hizamaru Kote +1</hands>
+			<head>Umbani Cap</head>
+			<body>Uac Jerkin</body>
+			<hands>Sasuke Tekko +1</hands>
 			<legs augment="S614750824960">Samnuha Tights</legs>
-			<feet>Hiza. Sune-Ate +1</feet>
+			<feet>Scopuli Nails +1</feet>
 			<neck>Moonbeam Necklace</neck>
 			<waist>Flume Belt</waist>
 			<ear1>Odnowa Earring +1</ear1>
@@ -653,7 +662,9 @@
 		<elseif p_status="resting">
 			<equip set="Resting" />
 		</elseif>
-		
+			<elseif p_ismoving="true">
+					<equip set="Running" />
+
 		<elseif advanced="$EvasionSetActive=1">
 			<equip set="Evasion" />
 		</elseif>
